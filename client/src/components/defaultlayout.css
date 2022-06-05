@@ -1,0 +1,37 @@
+@import '~antd/dist/antd.css';
+
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+  
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  margin: 18px;
+  padding:5px;
+  background: rgba(255, 255, 255, 0.3);
+  color:white;
+  font-weight:500;
+}
+
+.site-layout .site-layout-background {
+  background-color: white;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px !important;
+}
+
+.ant-layout-header div apan svg{
+  height:25px !important;
+  width: 25px !important;
+}
+.ant-layout-content{
+  min-height: 90vh !important;
+}
+
